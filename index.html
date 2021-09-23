@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Wilkins Avenue</title>
+
+	</head>
+
+	<body>
+			<model-viewer 
+				style="display: flex; height:1100px; width:1100px;"
+				src="../assets/composition.glb"
+				ios-src="../assets/merged2.reality"
+				poster="../assets/capture.png"
+				camera-orbit="0rad 0rad auto"
+				shadow-intensity="0"
+				ar
+				ar-modes="webxr scene-viewer quick-look fallback"
+				camera-controls
+				alt="testWilkins">	
+			<img class="fit-picture"
+				style="margin-top: 70%; margin-left: 25%"
+     			src="../assets/OPEN.png"
+				 slot="ar-button">
+		
+	</body>
+
+</html>
